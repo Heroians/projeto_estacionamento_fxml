@@ -98,6 +98,12 @@ public class Estacionamento {
         return false;
     }
 
+    public void setVeiculos(ArrayList<Veiculo> lista){
+        veiculos.clear();
+        veiculos.addAll(lista);
+
+    }
+
 
 
 
